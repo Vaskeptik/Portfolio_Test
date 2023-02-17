@@ -1,0 +1,273 @@
+{
+	"accessors": [
+		{
+			"bufferView": 2,
+			"componentType": 5126,
+			"count": 19225,
+			"max": [
+				47.364540100097656,
+				142.6044921875,
+				30.815147399902344
+			],
+			"min": [
+				-29.674020767211914,
+				0.9812319874763489,
+				-40.835880279541016
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 230700,
+			"componentType": 5126,
+			"count": 19225,
+			"max": [
+				0.9999223351478577,
+				0.9999988675117493,
+				0.9999561309814453
+			],
+			"min": [
+				-0.9999922513961792,
+				-1.0,
+				-0.9999278783798218
+			],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"componentType": 5126,
+			"count": 19225,
+			"max": [
+				0.9998860359191895,
+				0.9999891519546509,
+				0.9999915957450867,
+				1.0
+			],
+			"min": [
+				-0.9999086260795593,
+				-0.9999792575836182,
+				-0.9999929070472717,
+				-1.0
+			],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 1,
+			"componentType": 5126,
+			"count": 19225,
+			"max": [
+				0.9980469942092896,
+				0.8904110193252563
+			],
+			"min": [
+				0.0019529999699443579,
+				0.0019529999699443579
+			],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 0,
+			"componentType": 5125,
+			"count": 113334,
+			"type": "SCALAR"
+		}
+	],
+	"asset": {
+		"extras": {
+			"author": "re1monsen (https://sketchfab.com/re1monsen)",
+			"license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+			"source": "https://sketchfab.com/3d-models/mary-ann-montagu-cf6dd2e6272b45289f2e29e7785a4554",
+			"title": "Mary Ann Montagu"
+		},
+		"generator": "Sketchfab-13.74.0",
+		"version": "2.0"
+	},
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 453336,
+			"name": "floatBufferViews",
+			"target": 34963
+		},
+		{
+			"buffer": 0,
+			"byteLength": 153800,
+			"byteOffset": 453336,
+			"byteStride": 8,
+			"name": "floatBufferViews",
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 461400,
+			"byteOffset": 607136,
+			"byteStride": 12,
+			"name": "floatBufferViews",
+			"target": 34962
+		},
+		{
+			"buffer": 0,
+			"byteLength": 307600,
+			"byteOffset": 1068536,
+			"byteStride": 16,
+			"name": "floatBufferViews",
+			"target": 34962
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 1376136,
+			"uri": "scene.bin"
+		}
+	],
+	"extensionsUsed": [
+		"KHR_materials_clearcoat"
+	],
+	"images": [
+		{
+			"uri": "textures/MaryAnnMontagu_baseColor.jpeg"
+		},
+		{
+			"uri": "textures/MaryAnnMontagu_metallicRoughness.png"
+		},
+		{
+			"uri": "textures/MaryAnnMontagu_normal.png"
+		}
+	],
+	"materials": [
+		{
+			"doubleSided": true,
+			"extensions": {
+				"KHR_materials_clearcoat": {
+					"clearcoatFactor": 0.15,
+					"clearcoatRoughnessFactor": 0.04
+				}
+			},
+			"name": "MaryAnnMontagu",
+			"normalTexture": {
+				"index": 2
+			},
+			"occlusionTexture": {
+				"index": 1,
+				"strength": 0.5
+			},
+			"pbrMetallicRoughness": {
+				"baseColorTexture": {
+					"index": 0
+				},
+				"metallicRoughnessTexture": {
+					"index": 1
+				}
+			}
+		}
+	],
+	"meshes": [
+		{
+			"name": "defaultMaterial",
+			"primitives": [
+				{
+					"attributes": {
+						"NORMAL": 1,
+						"POSITION": 0,
+						"TANGENT": 2,
+						"TEXCOORD_0": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1
+			],
+			"matrix": [
+				0.005001717247068882,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				1.1106043300721251e-18,
+				-0.005001717247068882,
+				0.0,
+				0.0,
+				0.005001717247068882,
+				1.1106043300721251e-18,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"name": "Sketchfab_model"
+		},
+		{
+			"children": [
+				2
+			],
+			"matrix": [
+				1.0,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				-4.371139006309477e-08,
+				0.999999999999999,
+				0.0,
+				0.0,
+				-0.999999999999999,
+				-4.371139006309477e-08,
+				0.0,
+				0.0,
+				0.0,
+				0.0,
+				1.0
+			],
+			"name": "Collada visual scene group"
+		},
+		{
+			"children": [
+				3
+			],
+			"name": "a_low_2"
+		},
+		{
+			"mesh": 0,
+			"name": "defaultMaterial"
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9987,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scene": 0,
+	"scenes": [
+		{
+			"name": "Sketchfab_Scene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		},
+		{
+			"sampler": 0,
+			"source": 1
+		},
+		{
+			"sampler": 0,
+			"source": 2
+		}
+	]
+}
